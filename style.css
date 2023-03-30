@@ -1,0 +1,91 @@
+* {
+    font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue';
+    box-sizing: border-box;
+  }
+  
+  .start {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 1.5em;
+  }
+  
+  .column1 {
+    height: 250px;
+    width: 500px;
+  }
+  
+  .column2 {
+    align-items: center;
+    height: 0px;
+    width: 500px;
+  }
+  
+  
+  .row { display: flex;}
+  .grade {
+    color: #fff;
+    background: #000;
+  }
+  
+  .grading {
+    padding: 20px;
+    color: #fff;
+    background: #000;
+    width: 150px;
+  }
+  
+  #gradingform, #calculator {
+    max-width: 500px;
+    padding: 15px;
+    border: 3px solid 	#000;
+    margin: 10px 0;
+    background: #6B695E;
+  }
+  
+  #gradingform, #gradingform input {
+    display: block;
+    width: 100%;
+  }
+  
+  #gradingform input {
+    border: 1px solid 	#000;
+  }
+  
+  #gradingform label { 
+    margin: 10px 0;
+  }
+  
+  #gradingform input { 
+    padding: 10px; 
+  }
+  
+  #gradingform input[type=submit] {
+    margin-top: 10px;
+    color: #fff;
+    border: 0;
+    background: 	#000;
+  }
+  
+  #gradingform input[type=number] { 
+    flex-grow: 1; 
+  }
+  
+  #calculator {
+    margin-top: 20px;
+    font-weight: 700;
+  }
+  
+  #calculator .grade { 
+    width: 120px; 
+  }
+  
+  #calculator .row {
+    border: 2px solid #fff;
+    background: #6B695E; 
+  }
+  
+  #average, #remarks, #description { 
+    padding: 20px
+    
+  }
